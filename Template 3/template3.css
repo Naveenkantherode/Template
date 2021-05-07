@@ -1,0 +1,153 @@
+
+a:link{
+	text-decoration:none;
+	}
+		.div1{
+			text-align:center;
+			color:white;
+			}
+		/*header section*/	
+		#nav ul{
+			padding-right:30px;
+			}		
+			#nav{
+			margin-left: 80px;
+			text-align:right;
+			}
+			#nav ul li{
+				
+				padding-right:50px;
+				padding-top:20px;
+				padding-bottom:20px;
+				display:inline-block;
+				list-style-type:none;	
+			}
+			#nav li:hover{
+				background-color:green;
+				color:white;
+					}	
+			#nav ul li ul {
+				display:none;
+				position:absolute;
+				}
+			#nav ul li:hover ul {
+			display: block;
+						}
+			#nav ul li ul{
+			background:green;
+			padding:3px;
+			}		
+			#nav ul li ul li {
+			   display: block;
+			   }   
+		div#nav a:link, div#nav a:visited
+				{
+				font-weight:bold;
+				color:black;
+				text-align:center;
+				padding:10px;
+				text-decoration:none;
+				text-transform:uppercase;
+				}	
+			div#nav a:hover{
+			color:white;}
+		 header{
+			   padding:20px ;
+			  background-color:#e3e1dc;
+			  
+			  }	
+   .div2 section{
+			padding:40px 0;
+			background-color:yellow;
+			font-size:30px;
+		  }
+	.div2 footer{
+		padding:20px ;
+			  background-color:green;
+		
+	}	  
+		  table{
+			  text-align:center;
+			  border-color:;
+		  }
+		  .div2{
+			  background-image:url("images_5/background.jpg");
+		  }
+		  
+		.container{
+			align:left;
+			background-color:#6c706d;
+			width:99%;
+			margin-top:100px;
+			margin-left:2px;
+			text-align:center;
+		}
+		.wholecontainer{
+			align:left;
+			width:40%;
+			margin:40px;
+			background-image:url("images_5/background.jpg");
+		} 
+		footer{
+   clear: both;
+   padding:20px 0;
+   background-color:black;
+   color:white;
+  text-align:center;
+   }
+     #new{
+		background-color:#292929;
+		color:white;
+		border-color:#292929;
+	}
+	
+		#new a:link, a:visited {
+ 
+  color: green;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.in1{
+	background-color:black;
+	color:white;
+	padding: 15px 20px;
+	display: inline-block;
+}
+.in2
+{
+	background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.table1{
+	background-color: #e5ede1;	
+	
+}
+.table1 p{
+	color:white;
+}
+.ex1{
+	background-color:orange;
+	border:1px solid red;	
+}
+.ex2{
+	background-color:#6bfffa;
+	border:1px solid blue;	
+}
+.bno{
+	background-image:url("images_5/background.jpg");
+	color:white;
+}
+p.lion{
+	align:center;
+	color:green;
+	margin:0px;
+}
