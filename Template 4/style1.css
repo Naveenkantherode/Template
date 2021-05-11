@@ -46,7 +46,7 @@ margin:0;
 .first{
 	float:left;
 	width:33.333333%;
-	overflow:auto;
+	overflow:hidden;
 }
 .second{
 	float:left;
@@ -56,7 +56,7 @@ margin:0;
 .third{
 	float:left;
 	width:33.333333%;
-	overflow:auto;
+	overflow:hidden;
 }
 
 .projects{
@@ -131,7 +131,7 @@ margin:0;
 	text-align:center;
 }
 .education{
-	float:left;
+	float:right;
 	background-color:black;
 	color:white;
 	padding:12px;
