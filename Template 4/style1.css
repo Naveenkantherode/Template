@@ -6,6 +6,7 @@ margin:0;
 .div1{
 	background-color:#c7c5c1;
 	padding:15px;
+	overflow:hidden;
 }
 .div1 img{
 	padding:20px;
@@ -15,6 +16,7 @@ margin:0;
 .topright{
 	float:right;
 	font-size:18px;
+	overflow:hidden;
 }
 .topright a:link{
 	text-decoration:none;
@@ -44,14 +46,17 @@ margin:0;
 .first{
 	float:left;
 	width:33.333333%;
+	overflow:hidden;
 }
 .second{
 	float:left;
 	width:33.333333%;
+	overflow:hidden;
 }
 .third{
 	float:left;
 	width:33.333333%;
+	overflow:hidden;
 }
 
 .projects{
@@ -95,6 +100,7 @@ margin:0;
 }
 .proj1,.proj2,.proj3,.proj4,.proj5,.proj6{
 	background-color:#e0e0e0;
+	overflow:hidden;
 }
 .projects h4{
 	padding-left:20px;
@@ -111,28 +117,27 @@ margin:0;
 	text-align:center;
 	size:30px;
 	padding:5px;
+	
 }
 .personal{
 	float:left;
 	background-color:white;
-	width:40%;
-	margin-left:9%;
-	padding:20px;
-	max-height:160px;
+	padding:12px;
+	width:49%;
 	overflow:hidden;
+	min-height:285px;
 }
 .personal h4{
 	text-align:center;
 }
 .education{
-	float:left;
-	background-color:#2f3336;
+	float:right;
+	background-color:black;
 	color:white;
-	width:40%;
-	margin-right:9%;
-	margin-left:1%;
-	padding:20px;
-	max-height:160px;
+	padding:12px;
+	width:49%;
+	overflow:hidden;
+	min-height:285px;
 }
 .education h4{
 	text-align:center;
@@ -140,5 +145,5 @@ margin:0;
 .footer{
 	background-color:#e0e0e0;
 	text-align:center;
-	padding:10px;
+	padding:10px;	
 }
