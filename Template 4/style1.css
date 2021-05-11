@@ -118,6 +118,8 @@ margin:0;
 	width:40%;
 	margin-left:9%;
 	padding:20px;
+	max-height:148px;
+	overflow:hidden;
 }
 .personal h4{
 	text-align:center;
